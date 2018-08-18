@@ -8,7 +8,7 @@
 // Admin password: 1d9356e9b3c73da5cd655a7b5118eb881c13709f0108988266e9762a31cfd1b152a7242d56b5b4c982c9db3140b2679d61c4c79cc3be7164916d242b9fdbf9a5
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Willkomen bei der GWI - F&E - Projektdatenbank',
+	'name'=>'Willkommen in der Projektverwaltungs Plattform',
 	'defaultController'=>'site/login',
 
 	// preloading 'log' component

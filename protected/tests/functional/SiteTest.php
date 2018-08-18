@@ -33,10 +33,10 @@ class SiteTest extends WebTestCase
 		$this->assertElementPresent('name=LoginForm[username]');
 		$this->type('name=LoginForm[username]','demo');
 		$this->click("//input[@value='Login']");
-		$this->waitForTextPresent('Password cannot be blank.');
+		$this->waitForTextPresent('Das Feld Kennwort muss ausgefüllt werden.');
 		$this->type('name=LoginForm[password]','demo');
 		$this->clickAndWait("//input[@value='Login']");
-		$this->assertTextNotPresent('Password cannot be blank.');
+		$this->assertTextNotPresent('Das Feld Kennwort muss ausgefüllt werden.');
 		$this->assertTextPresent('Logout');
 
 		// test logout process
