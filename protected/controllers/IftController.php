@@ -288,7 +288,7 @@ protected function performAjaxValidation($model)
 			$pdf->SetDrawColor(0,0,0);
 			$pdf->SetLineWidth(.2);
 			$pdf->AddPage('L');
-			$logo = "images/GWI_logo.jpg";
+			$logo = "images/logo.jpg";
 			$pdf->Image($logo,10,1,25,12,'JPG');
 			$pdf->Ln();
 			$pdf->SetY(15);

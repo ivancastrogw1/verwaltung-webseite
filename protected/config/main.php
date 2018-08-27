@@ -56,11 +56,10 @@ return array(
 			'charset' => 'utf8',
 			'tablePrefix' => 'tbl_',
 			),
-		/*'errorHandler'=>array(
+		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>YII_DEBUG ? null : 'site/error',
-			),*/
-
+			),
 			'log'=>array(
 				'class'=>'CLogRouter',
 				'routes'=>array(

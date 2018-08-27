@@ -50,7 +50,7 @@
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by GWI.<br/>
+		Copyright &copy; <?php echo date('Y'); ?> by AICR.<br/>
 		All Rights Reserved.<br/>
 	</div><!-- footer -->
 

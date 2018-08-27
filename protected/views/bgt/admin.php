@@ -56,18 +56,18 @@ Yii::app()->clientScript->registerScript('search', "
 					'summaryText'=>'Seite {page} von {pages}',
 					'emptyText'=>'Keine Ergebnisse gefunden.',	
 					'columns'=>array(
+						array('name'=>'projekt_name', 'htmlOptions'=>array('style'=>'min-width: 50px')),
+						'interne_nummer',
+						'projekt_zuwendungsnummer',
+						array('name'=>'projekt_titel', 'htmlOptions'=>array('style'=>'min-width: 450px')),
+						array('name'=>'thematische', 'htmlOptions'=>array('style'=>'min-width: 50px')),
+						'aktuellerstatus_id',
+						'projekt_leiter',
 						array(
 							'htmlOptions' => array('nowrap'=>'nowrap'),
 							'class'=>'booster.widgets.TbButtonColumn',
 							'template'=>'{view}{update}',						
-							),
-						array('name'=>'projekt_name', 'htmlOptions'=>array('style'=>'min-width: 50px')),
-						'interne_nummer',
-						'projekt_zuwendungsnummer',
-						array('name'=>'projekt_titel', 'htmlOptions'=>array('style'=>'min-width: 500px')),
-						array('name'=>'thematische', 'htmlOptions'=>array('style'=>'min-width: 50px')),
-						'aktuellerstatus_id',
-						'projekt_leiter',						),
+							),						),
 					'bulkActions' => array(
 						'actionButtons' => array(
 							array(
